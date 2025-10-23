@@ -4,7 +4,7 @@
   "metadata": {
     "author": "team_astrology",
     "last_updated": "2025-10-22T20:12:00Z",
-    "hash": "sha256:..."
+    "hash": "sha256:12e4b8f9a3b21dc49d897c39e2f95cc39a6019b98f422a22b7a84c6afc0e9e71"
   },
   "horoscopes": {
     "aries": {
@@ -65,13 +65,284 @@
           ],
           "attractors": ["planes concretos", "gestos de apoyo"],
           "confidence": "medium"
+        },
+        "cancer": {
+          "compatibility_score": 78,
+          "target_state": "Emocional y hogareño; valora el afecto sincero",
+          "how_to_act": [
+            "Muestra empatía sin juzgar",
+            "Invítalo a compartir momentos cómodos",
+            "Evita la crítica directa"
+          ],
+          "attractors": ["ambientes tranquilos", "detalles afectivos"],
+          "confidence": "high"
+        }
+      }
+    },
+    "gemini": {
+      "summary": "Tu mente está en mil lugares, canaliza la curiosidad.",
+      "mood": "Inquieto",
+      "general": {
+        "text": "Las ideas fluyen sin parar; anota lo importante antes de olvidarlo.",
+        "tips": [
+          "No hables de todo, escucha también",
+          "Evita distracciones innecesarias",
+          "Lee algo nuevo aunque sea breve"
+        ]
+      },
+      "target_advice": {
+        "leo": {
+          "compatibility_score": 70,
+          "target_state": "Expresivo y magnético; le gusta brillar",
+          "how_to_act": [
+            "Hazle cumplidos genuinos",
+            "Participa en su entusiasmo",
+            "Evita competir por atención"
+          ],
+          "attractors": ["planes espontáneos", "conversaciones brillantes"],
+          "confidence": "medium"
+        }
+      }
+    },
+    "cancer": {
+      "summary": "Sensibilidad elevada, ideal para conectar con otros.",
+      "mood": "Empático",
+      "general": {
+        "text": "Hoy estás más perceptivo de lo normal; usa eso para cuidar vínculos.",
+        "tips": [
+          "Ponte límites emocionales claros",
+          "Dedica tiempo al autocuidado",
+          "Evita tomarte todo de forma personal"
+        ]
+      },
+      "target_advice": {
+        "pisces": {
+          "compatibility_score": 85,
+          "target_state": "Intuitivo y soñador; busca comprensión emocional",
+          "how_to_act": [
+            "Habla desde el corazón",
+            "Valida sus sentimientos sin analizarlos",
+            "Comparte música o arte que conecte"
+          ],
+          "attractors": ["miradas profundas", "ambiente relajado"],
+          "confidence": "high"
+        }
+      }
+    },
+    "leo": {
+      "summary": "Brillas sin esfuerzo; hoy atraes sin buscarlo.",
+      "mood": "Seguro",
+      "general": {
+        "text": "Tu presencia inspira a otros; usa esa energía con propósito.",
+        "tips": [
+          "Reconoce los logros ajenos",
+          "Sé generoso sin buscar aprobación",
+          "Evita dramatizar lo innecesario"
+        ]
+      },
+      "target_advice": {
+        "libra": {
+          "compatibility_score": 82,
+          "target_state": "Equilibrado y sociable; busca armonía",
+          "how_to_act": [
+            "Cuida el tono al discutir",
+            "Valora su opinión estética",
+            "Muéstrate dispuesto a cooperar"
+          ],
+          "attractors": ["buen gusto", "gestos elegantes"],
+          "confidence": "high"
+        }
+      }
+    },
+    "virgo": {
+      "summary": "Enfócate en los detalles, pero no te obsesiones.",
+      "mood": "Analítico",
+      "general": {
+        "text": "Tu mente crítica está al máximo; canalízala para mejorar procesos.",
+        "tips": [
+          "Agradece los avances pequeños",
+          "No exijas perfección inmediata",
+          "Apoya a quienes buscan tu consejo"
+        ]
+      },
+      "target_advice": {
+        "capricorn": {
+          "compatibility_score": 84,
+          "target_state": "Práctico y enfocado; respeta la disciplina",
+          "how_to_act": [
+            "Muéstrale tu fiabilidad",
+            "Propón metas compartidas",
+            "Evita improvisar demasiado"
+          ],
+          "attractors": ["rutinas claras", "respeto mutuo"],
+          "confidence": "high"
+        }
+      }
+    },
+    "libra": {
+      "summary": "Tu diplomacia será clave para evitar tensiones.",
+      "mood": "Sociable",
+      "general": {
+        "text": "Busca equilibrio entre lo que das y lo que recibes.",
+        "tips": [
+          "Evita sobrepensar las decisiones",
+          "Escucha antes de responder",
+          "Haz algo estéticamente placentero"
+        ]
+      },
+      "target_advice": {
+        "aquarius": {
+          "compatibility_score": 77,
+          "target_state": "Independiente e idealista; ama las mentes abiertas",
+          "how_to_act": [
+            "Habla de temas futuristas",
+            "No lo presiones emocionalmente",
+            "Muéstrale tu originalidad"
+          ],
+          "attractors": ["charlas intelectuales", "libertad mutua"],
+          "confidence": "medium"
+        }
+      }
+    },
+    "scorpio": {
+      "summary": "Día intenso, pero revelador si te permites soltar el control.",
+      "mood": "Profundo",
+      "general": {
+        "text": "Tu instinto está agudo; úsalo para transformarte, no manipular.",
+        "tips": [
+          "Evita rencores viejos",
+          "Medita antes de confrontar",
+          "Canaliza la pasión en algo creativo"
+        ]
+      },
+      "target_advice": {
+        "cancer": {
+          "compatibility_score": 88,
+          "target_state": "Emocional y protector; busca confianza plena",
+          "how_to_act": [
+            "Sé transparente en tus intenciones",
+            "Demuestra lealtad sin palabras",
+            "Evita sarcasmos emocionales"
+          ],
+          "attractors": ["miradas intensas", "complicidad silenciosa"],
+          "confidence": "high"
+        }
+      }
+    },
+    "sagittarius": {
+      "summary": "Aventura y expansión; hoy necesitas libertad mental.",
+      "mood": "Entusiasta",
+      "general": {
+        "text": "Evita el encierro, literal o simbólico. Explora nuevas ideas.",
+        "tips": [
+          "Camina al aire libre",
+          "Aprende algo fuera de tu zona de confort",
+          "No te comprometas con lo que no sientas"
+        ]
+      },
+      "target_advice": {
+        "aries": {
+          "compatibility_score": 80,
+          "target_state": "Espontáneo y directo; disfruta de la acción",
+          "how_to_act": [
+            "Sigue su ritmo, pero con humor",
+            "Evita dar sermones",
+            "Propón aventuras pequeñas"
+          ],
+          "attractors": ["viajes cortos", "bromas compartidas"],
+          "confidence": "high"
+        }
+      }
+    },
+    "capricorn": {
+      "summary": "Avanza con método; hoy la disciplina paga.",
+      "mood": "Determinado",
+      "general": {
+        "text": "Cada paso firme hoy tendrá resultados mañana.",
+        "tips": [
+          "Define metas medibles",
+          "Reconoce tus propios logros",
+          "Evita cerrarte a nuevas perspectivas"
+        ]
+      },
+      "target_advice": {
+        "virgo": {
+          "compatibility_score": 84,
+          "target_state": "Analítico y ordenado; busca coherencia",
+          "how_to_act": [
+            "Demuestra constancia",
+            "Respeta su tiempo",
+            "Evita las emociones desbordadas"
+          ],
+          "attractors": ["eficiencia", "compromiso a largo plazo"],
+          "confidence": "high"
+        }
+      }
+    },
+    "aquarius": {
+      "summary": "Piensa diferente, pero con propósito.",
+      "mood": "Intelectual",
+      "general": {
+        "text": "Tu mente creativa puede romper esquemas hoy; usa esa rebeldía con empatía.",
+        "tips": [
+          "Escucha ideas ajenas antes de opinar",
+          "Evita aislarte emocionalmente",
+          "Haz algo que te inspire innovación"
+        ]
+      },
+      "target_advice": {
+        "gemini": {
+          "compatibility_score": 79,
+          "target_state": "Curioso e ingenioso; valora el intercambio mental",
+          "how_to_act": [
+            "Habla de proyectos raros o futuristas",
+            "Hazle reír con algo absurdo",
+            "Evita dramatizar temas simples"
+          ],
+          "attractors": ["humor inteligente", "libertad creativa"],
+          "confidence": "high"
+        }
+      }
+    },
+    "pisces": {
+      "summary": "Tu intuición está al máximo; no ignores tus corazonadas.",
+      "mood": "Soñador",
+      "general": {
+        "text": "Conecta con el arte o la naturaleza; hay mensajes ocultos en lo sutil.",
+        "tips": [
+          "Descansa más de lo habitual",
+          "Evita absorber emociones ajenas",
+          "Escribe tus sueños o ideas espontáneas"
+        ]
+      },
+      "target_advice": {
+        "scorpio": {
+          "compatibility_score": 88,
+          "target_state": "Apasionado y reservado; busca profundidad emocional",
+          "how_to_act": [
+            "Sé misterioso pero auténtico",
+            "Comparte tus emociones sin exagerar",
+            "Evita los juegos mentales"
+          ],
+          "attractors": ["silencio compartido", "vínculo espiritual"],
+          "confidence": "high"
         }
       }
     }
   },
   "compatibility_summary": [
-    { "sign1": "aries", "sign2": "taurus", "score": 62 },
-    { "sign1": "aries", "sign2": "gemini", "score": 45 }
+    {"sign1": "aries", "sign2": "taurus", "score": 62},
+    {"sign1": "aries", "sign2": "gemini", "score": 45},
+    {"sign1": "aries", "sign2": "sagittarius", "score": 80},
+    {"sign1": "taurus", "sign2": "cancer", "score": 78},
+    {"sign1": "gemini", "sign2": "leo", "score": 70},
+    {"sign1": "cancer", "sign2": "pisces", "score": 85},
+    {"sign1": "leo", "sign2": "libra", "score": 82},
+    {"sign1": "virgo", "sign2": "capricorn", "score": 84},
+    {"sign1": "libra", "sign2": "aquarius", "score": 77},
+    {"sign1": "scorpio", "sign2": "cancer", "score": 88},
+    {"sign1": "pisces", "sign2": "scorpio", "score": 88},
+    {"sign1": "aquarius", "sign2": "gemini", "score": 79}
   ],
   "premium_content": {
     "natal_chart": {
