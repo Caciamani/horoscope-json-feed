@@ -1,0 +1,28 @@
+{
+  "date": "2025-10-23",
+  "signs": {
+    "aries": {
+      "summary": "Día de decisiones rápidas; confía en tu instinto.",
+      "mood": "Activo",
+      "tips": [
+        "Actúa en tareas pequeñas para construir impulso",
+        "Evita discusiones iniciadas por orgullo",
+        "Reserva 20 minutos para calmar la mente antes de actuar"
+      ],
+      "target_advice": {
+        "taurus": {
+          "compatibility_score": 62,
+          "how_to_act": [
+            "Ofrece seguridad con planes concretos",
+            "Evita cambios bruscos en conversación"
+          ]
+        }
+      }
+    }
+  },
+  "metadata": {
+    "author": "team_astrology",
+    "version": "1.0",
+    "last_updated": "2025-10-23T02:00:00Z"
+  }
+}
