@@ -1,0 +1,37 @@
+{
+  "sign": "aries",
+  "date": "2025-10-23",
+  "version": "1.0",
+  "summary": "Día de decisiones rápidas; confía en tu instinto.",
+  "mood": "Activo",
+  "general": {
+    "text": "Hoy tu energía está alta; prioriza lo urgente sobre lo importante.",
+    "tips": [
+      "Actúa en tareas pequeñas para construir impulso",
+      "Evita discusiones iniciadas por orgullo",
+      "Reserva 20 minutos para calmar la mente antes de actuar"
+    ]
+  },
+  "target_advice": {
+    "taurus": {
+      "compatibility_score": 62,
+      "target_state": "Conservador y receptivo a pruebas de estabilidad",
+      "how_to_act": [
+        "Ofrece seguridad con planes concretos",
+        "Evita cambios bruscos en conversación",
+        "Muestra aprecio por sus gestos prácticos"
+      ],
+      "attractors": ["comida compartida", "mensajes constantes y calmados"],
+      "confidence": "medium"
+    }
+  },
+  "compatibility_summary": [
+    {"sign": "taurus", "score": 62},
+    {"sign": "gemini", "score": 45}
+  ],
+  "metadata": {
+    "author": "team_astrology",
+    "last_updated": "2025-10-22T20:12:00Z",
+    "hash": "sha256:pendiente"
+  }
+}
