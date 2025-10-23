@@ -1,28 +1,96 @@
 {
   "date": "2025-10-23",
-  "signs": {
+  "version": "1.0",
+  "metadata": {
+    "author": "team_astrology",
+    "last_updated": "2025-10-22T20:12:00Z",
+    "hash": "sha256:..."
+  },
+  "horoscopes": {
     "aries": {
       "summary": "Día de decisiones rápidas; confía en tu instinto.",
       "mood": "Activo",
-      "tips": [
-        "Actúa en tareas pequeñas para construir impulso",
-        "Evita discusiones iniciadas por orgullo",
-        "Reserva 20 minutos para calmar la mente antes de actuar"
-      ],
+      "general": {
+        "text": "Hoy tu energía está alta; prioriza lo urgente sobre lo importante.",
+        "tips": [
+          "Actúa en tareas pequeñas para construir impulso",
+          "Evita discusiones iniciadas por orgullo",
+          "Reserva 20 minutos para calmar la mente antes de actuar"
+        ]
+      },
       "target_advice": {
         "taurus": {
           "compatibility_score": 62,
+          "target_state": "Conservador y receptivo a pruebas de estabilidad",
           "how_to_act": [
             "Ofrece seguridad con planes concretos",
-            "Evita cambios bruscos en conversación"
-          ]
+            "Evita cambios bruscos en conversación",
+            "Muestra aprecio por sus gestos prácticos"
+          ],
+          "attractors": ["comida compartida", "mensajes constantes y calmados"],
+          "confidence": "medium"
+        },
+        "gemini": {
+          "compatibility_score": 45,
+          "target_state": "Curioso y disperso; busca estímulos nuevos",
+          "how_to_act": [
+            "Propón ideas creativas para mantener su interés",
+            "Sé flexible con los planes",
+            "Evita imponer estructuras rígidas"
+          ],
+          "attractors": ["conversaciones rápidas", "actividades sociales"],
+          "confidence": "low"
+        }
+      }
+    },
+    "taurus": {
+      "summary": "Día de estabilidad; enfócate en lo tangible.",
+      "mood": "Calmado",
+      "general": {
+        "text": "Tu ritmo natural te guiará; evita apresurarte.",
+        "tips": [
+          "Organiza tu espacio para ganar claridad",
+          "Disfruta de una comida reconfortante",
+          "Planifica tus pasos antes de actuar"
+        ]
+      },
+      "target_advice": {
+        "aries": {
+          "compatibility_score": 62,
+          "target_state": "Activo y decidido; busca acción inmediata",
+          "how_to_act": [
+            "Apóyalo con ideas prácticas",
+            "Sé paciente con su energía",
+            "Ofrece un espacio tranquilo para equilibrar"
+          ],
+          "attractors": ["planes concretos", "gestos de apoyo"],
+          "confidence": "medium"
         }
       }
     }
   },
-  "metadata": {
-    "author": "team_astrology",
-    "version": "1.0",
-    "last_updated": "2025-10-23T02:00:00Z"
+  "compatibility_summary": [
+    { "sign1": "aries", "sign2": "taurus", "score": 62 },
+    { "sign1": "aries", "sign2": "gemini", "score": 45 }
+  ],
+  "premium_content": {
+    "natal_chart": {
+      "enabled": false,
+      "description": "Cálculo simplificado por fecha/hora/lugar (disponible con suscripción)"
+    },
+    "synastry": {
+      "enabled": false,
+      "description": "Análisis extendido entre usuario y target (pago único o suscripción)"
+    },
+    "thematic_packs": {
+      "romance": {
+        "enabled": false,
+        "tips": ["Conecta con gestos afectuosos", "Planifica un momento íntimo"]
+      },
+      "work": {
+        "enabled": false,
+        "tips": ["Organiza tus prioridades", "Colabora con calma"]
+      }
+    }
   }
 }
