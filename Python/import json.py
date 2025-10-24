@@ -1,6 +1,8 @@
+
 #!/usr/bin/env python3
 """
-Generador de JSONs para BLOQUE 1 — versión mejorada (ajuste: energy usa mood)
+Generador de JSONs para BLOQUE 1 — versión final (ruta relativa a ../Daily)
+- Guarda en ../Daily relativo a la ubicación del script.
 - Determinismo total por date+sign+secret_salt
 - Tips sin repetición por signo (hasta agotar pool)
 - Guarda contexto mínimo para la IA (ai_prompt_context)
@@ -16,7 +18,7 @@ SIGNS = ["aries","tauro","geminis","cancer","leo","virgo","libra","escorpio","sa
 MOODS = ["decidido","relajado","nostálgico","enérgico","pensativo","optimista","reservado","ansioso","valiente","curioso","indeciso","romántico","melancólico","motivado","sereno","aventurero","reflexivo","inspirado"]
 CATEGORIES = ["general","love","friendship","energy","work","health","family","money","studies","creativity"]
 CATEGORY_STATES = ["favorable","neutral","tenso","prometedor","precaucion","desafiante","estable","incierto","equilibrado"]
-TIPS_POOL = [
+TIPS_GENERAL = [
     "Actúa en pequeñas metas para construir impulso",
     "Reserva 20 minutos para calmar la mente antes de actuar",
     "Comunica lo que sientes con claridad y sin agresión",
@@ -27,36 +29,6 @@ TIPS_POOL = [
     "Hidrátate y respira profundo al menos 3 veces al día",
     "Evita decisiones grandes antes de las 15:00",
     "Haz una pausa creativa: dibuja o escucha 5 minutos de música",
-    # Nuevos, más ambiguos y generalistas:
-    "Confía en que lo que hoy parece confuso tendrá sentido más adelante",
-    "Escucha más de lo que hablas, alguien cercano puede darte una pista valiosa",
-    "No ignores las señales pequeñas, suelen anticipar cambios grandes",
-    "Recuerda que no todo requiere una respuesta inmediata",
-    "Un gesto sencillo puede abrir una puerta inesperada",
-    "Lo que hoy postergas puede transformarse en claridad mañana",
-    "Permítete cambiar de opinión sin sentir culpa",
-    "El silencio también es una forma de comunicación",
-    "A veces avanzar significa soltar lo que pesa",
-    "No subestimes el poder de una pausa breve",
-    "Lo que buscas afuera puede estar más cerca de lo que imaginas",
-    "Un detalle cotidiano puede inspirarte más de lo que crees",
-    "No necesitas resolver todo hoy, solo dar el siguiente paso",
-    "La intuición puede ser tan válida como la lógica",
-    "Un pequeño ajuste en tu rutina puede traer un gran alivio",
-    "Lo que parece un obstáculo puede ser un desvío necesario",
-    "Escucha tu cuerpo, suele hablar antes que tu mente",
-    "Un cambio de perspectiva puede transformar la misma situación",
-    "No temas pedir ayuda, incluso los más fuertes lo hacen",
-    "Recuerda que cada día trae una oportunidad distinta",
-    "Lo que hoy te incomoda puede ser la semilla de un aprendizaje",
-    "Un inicio modesto puede llevar a un resultado inesperado",
-    "No todo lo que brilla es urgente, ni todo lo simple es menor",
-    "A veces la mejor decisión es esperar un poco más",
-    "Lo que das sin esperar puede regresar multiplicado",
-    "Un espacio ordenado puede traer claridad mental",
-    "No ignores esa idea que vuelve una y otra vez",
-    "El equilibrio no siempre es estático, a veces es movimiento",
-    "Lo que hoy parece pequeño puede crecer con constancia",
     "Abraza lo desconocido, podría revelar caminos inesperados",
     "Reflexiona sobre un recuerdo positivo para ganar perspectiva",
     "Conecta con alguien del pasado, podría sorprenderte",
@@ -156,12 +128,235 @@ TIPS_POOL = [
     "Libera dudas y actúa con convicción",
     "Sé atento a oportunidades disfrazadas"
 ]
+TIPS_LOVE = [
+    "Confía en que un encuentro inesperado podría encender una chispa duradera",
+    "Permite que el corazón guíe sin apresurar juicios",
+    "Un gesto sutil puede reavivar conexiones pasadas",
+    "Escucha lo no dicho en las palabras de quien amas",
+    "Lo que parece un desacuerdo podría ser el puente a una mayor intimidad",
+    "Suelta expectativas y abraza el flujo natural del afecto",
+    "Un momento de vulnerabilidad puede fortalecer lazos profundos",
+    "Recuerda que el amor verdadero florece con paciencia",
+    "No ignores señales pequeñas en el romance, podrían guiarte",
+    "Un cambio de perspectiva podría transformar una relación estancada",
+    "Permítete soñar con posibilidades románticas sin límites",
+    "Lo que das con autenticidad regresa de formas inesperadas",
+    "Encuentra equilibrio entre dar y recibir en el amor",
+    "Un silencio compartido puede decir más que mil palabras",
+    "A veces, soltar lo viejo abre espacio para lo nuevo en el corazón",
+    "Confía en tu intuición para navegar emociones complejas",
+    "Celebra detalles cotidianos que nutren el vínculo",
+    "No temas expresar deseos, podría sorprender positivamente",
+    "Lo que hoy parece confuso en el amor aclarará con tiempo",
+    "Un gesto de bondad puede ripplear en olas de cariño"
+]
 
-# Ajustes operativos (modificá según necesites)
+TIPS_FRIENDSHIP = [
+    "Un mensaje casual podría fortalecer un lazo olvidado",
+    "Escucha con empatía, un amigo podría necesitarlo más de lo que dice",
+    "Permite que las diferencias enriquezcan la conexión compartida",
+    "Un encuentro espontáneo puede revivir alegrías pasadas",
+    "Suelta rencores para dar espacio a nuevas aventuras juntas",
+    "Confía en que la lealtad verdadera resiste pruebas sutiles",
+    "Comparte una risa, puede disipar tensiones acumuladas",
+    "No subestimes el poder de un apoyo silencioso",
+    "Un gesto de gratitud puede deepenar amistades existentes",
+    "Permítete ser vulnerable, atrae conexiones auténticas",
+    "Lo que parece un malentendido podría ser una lección en comprensión",
+    "Celebra éxitos ajenos como propios para nutrir el vínculo",
+    "Un cambio en la rutina compartida podría traer frescura",
+    "Escucha señales no verbales en interacciones diarias",
+    "Confía en el flujo natural de las amistades evolutivas",
+    "Un momento de reflexión puede aclarar dinámicas confusas",
+    "No apresures reconciliaciones, llegan en su tiempo",
+    "Lo que das en amistad regresa multiplicado inesperadamente",
+    "Permite que el espacio temporal fortalezca lazos",
+    "Un gesto simple puede abrir puertas a confidencias profundas"
+]
+
+TIPS_ENERGY = [
+    "Respira profundo para recargar fuerzas internas",
+    "Un paseo breve puede resetear vibraciones estancadas",
+    "Permite que el descanso sea parte de tu flujo diario",
+    "Confía en que la fatiga temporal precede a un surge de vitalidad",
+    "Escucha a tu cuerpo, sabe cuándo pausar",
+    "Un cambio sutil en hábitos puede elevar niveles generales",
+    "Suelta lo que drena para invitar renovación",
+    "Celebra momentos de calma como fuentes de poder",
+    "No ignores señales de agotamiento, son guías valiosas",
+    "Un pensamiento positivo puede amplificar reservas ocultas",
+    "Permítete fluir con ritmos naturales del día",
+    "Lo que parece bajo podría ser preparación para un pico",
+    "Encuentra equilibrio entre actividad y reposo",
+    "Un momento mindful puede transformar energías dispersas",
+    "Confía en la intuición para elegir tareas energizantes",
+    "Libera tensiones acumuladas con movimientos suaves",
+    "Celebra progresos pequeños que acumulan momentum",
+    "No subestimes el impacto de hidratación y nutrición",
+    "Un ajuste en el entorno puede revitalizar el espíritu",
+    "Permite que la naturaleza inspire un flujo renovado"
+]
+
+TIPS_WORK = [
+    "Un enfoque paso a paso puede desbloquear avances inesperados",
+    "Permite que la colaboración revele soluciones ocultas",
+    "Confía en que un desafío actual forja habilidades futuras",
+    "Escucha ideas ajenas, podrían complementar las tuyas",
+    "Suelta perfeccionismo para ganar eficiencia",
+    "Un pausa breve puede aclarar metas confusas",
+    "Celebra logros modestos en la jornada laboral",
+    "No ignores intuiciones sobre decisiones profesionales",
+    "Un cambio en la rutina podría impulsar productividad",
+    "Permítete delegar para equilibrar cargas",
+    "Lo que parece un obstáculo podría ser una oportunidad disfrazada",
+    "Encuentra inspiración en tareas cotidianas",
+    "Confía en el timing para acciones clave",
+    "Libera distracciones para enfocar energías",
+    "Un gesto de reconocimiento puede motivar equipos",
+    "No subestimes el poder de listas organizadas",
+    "Celebra transiciones como puertas a crecimiento",
+    "Permite que la flexibilidad adapte planes rígidos",
+    "Un momento de reflexión puede alinear objetivos",
+    "Suelta lo innecesario para priorizar lo esencial"
+]
+
+TIPS_HEALTH = [
+    "Escucha señales sutiles de tu cuerpo para mantener equilibrio",
+    "Un hábito pequeño puede transformar bienestar general",
+    "Permite que el descanso sea prioridad sin culpas",
+    "Confía en que la consistencia trae resultados duraderos",
+    "Suelta tensiones con respiraciones conscientes",
+    "Celebra elecciones nutritivas como inversiones en ti",
+    "No ignores el rol de la mente en la vitalidad física",
+    "Un movimiento diario puede elevar ánimos y fuerzas",
+    "Permítete pausas para recargar reservas internas",
+    "Lo que parece un retroceso podría ser un ajuste necesario",
+    "Encuentra armonía entre actividad y reposo",
+    "Confía en intuiciones sobre cambios saludables",
+    "Libera hábitos drenantes para invitar frescura",
+    "Un pensamiento positivo puede apoyar curaciones",
+    "Celebra progresos sutiles en el viaje del bienestar",
+    "No subestimes el impacto de hidratación diaria",
+    "Permite que la naturaleza nutra cuerpo y espíritu",
+    "Un ajuste en la dieta podría sorprender positivamente",
+    "Escucha emociones, influyen en la salud holística",
+    "Suelta expectativas para fluir con ritmos naturales"
+]
+
+TIPS_FAMILY = [
+    "Un diálogo abierto puede resolver tensiones latentes",
+    "Permite que el tiempo cure heridas pasadas",
+    "Confía en que los lazos profundos resisten pruebas",
+    "Escucha perspectivas familiares con empatía",
+    "Suelta control para fomentar independencia mutua",
+    "Celebra tradiciones que unen generaciones",
+    "No ignores gestos pequeños que nutren vínculos",
+    "Un momento compartido puede revivir alegrías",
+    "Permítete expresar gratitud por presencias constantes",
+    "Lo que parece conflicto podría ser crecimiento disfrazado",
+    "Encuentra equilibrio en roles dinámicos",
+    "Confía en la resiliencia familiar innata",
+    "Libera expectativas rígidas para abrazar cambios",
+    "Un acto de apoyo puede fortalecer cimientos",
+    "Celebra diferencias como riquezas únicas",
+    "No subestimes el poder de disculpas sinceras",
+    "Permite que el espacio temporal refresque conexiones",
+    "Un recuerdo compartido puede iluminar el presente",
+    "Escucha lo no verbal en interacciones diarias",
+    "Suelta rencores para invitar armonía renovada"
+]
+
+TIPS_MONEY = [
+    "Un ajuste pequeño en gastos puede abrir flujos inesperados",
+    "Permite que la paciencia guíe decisiones financieras",
+    "Confía en que la abundancia llega en formas sutiles",
+    "Escucha consejos sabios sin apresurar acciones",
+    "Suelta impulsos para priorizar estabilidad",
+    "Celebra ahorros modestos como bases sólidas",
+    "No ignores señales de oportunidades ocultas",
+    "Un plan simple puede aclarar metas confusas",
+    "Permítete invertir en ti mismo con moderación",
+    "Lo que parece pérdida podría ser lección valiosa",
+    "Encuentra equilibrio entre gastar y reservar",
+    "Confía en intuiciones sobre riesgos calculados",
+    "Libera deudas emocionales que pesan en finanzas",
+    "Un gesto generoso puede retornar multiplicado",
+    "Celebra progresos en independencia económica",
+    "No subestimes el valor de presupuestos flexibles",
+    "Permite que el flujo natural atraiga prosperidad",
+    "Un cambio en hábitos podría sorprender positivamente",
+    "Escucha el entorno para ideas innovadoras",
+    "Suelta miedos para abrazar posibilidades"
+]
+
+TIPS_STUDIES = [
+    "Un enfoque paso a paso puede desbloquear conocimientos profundos",
+    "Permite que la curiosidad guíe exploraciones",
+    "Confía en que el esfuerzo constante trae claridad",
+    "Escucha preguntas internas para deepenar comprensión",
+    "Suelta distracciones para enfocar mente",
+    "Celebra descubrimientos modestos en el aprendizaje",
+    "No ignores intuiciones sobre temas complejos",
+    "Un pausa reflexiva puede conectar ideas dispersas",
+    "Permítete experimentar con métodos nuevos",
+    "Lo que parece confusión podría ser preludio a insight",
+    "Encuentra equilibrio entre teoría y práctica",
+    "Confía en el proceso evolutivo del saber",
+    "Libera presiones para invitar inspiración",
+    "Un grupo de estudio puede revelar perspectivas frescas",
+    "Celebra progresos en habilidades adquiridas",
+    "No subestimes el poder de repeticiones mindful",
+    "Permite que el descanso recargue concentración",
+    "Un cambio en el entorno podría impulsar productividad",
+    "Escucha mentores para atajos valiosos",
+    "Suelta perfeccionismo para fluir con el aprendizaje"
+]
+
+TIPS_CREATIVITY = [
+    "Un idea fugaz podría ser semilla de algo grandioso",
+    "Permite que el flujo libre inspire expresiones únicas",
+    "Confía en que el bloqueo temporal precede a un breakthrough",
+    "Escucha musas internas sin juzgar",
+    "Suelta rutinas para invitar innovación",
+    "Celebra experimentos fallidos como lecciones",
+    "No ignores impulsos creativos espontáneos",
+    "Un cambio de perspectiva puede transformar visiones",
+    "Permítete jugar sin expectativas de resultado",
+    "Lo que parece caos podría ser patrón emergente",
+    "Encuentra inspiración en lo cotidiano",
+    "Confía en la intuición para guiar procesos",
+    "Libera críticas internas para liberar potencial",
+    "Un colaboración inesperada puede enriquecer obras",
+    "Celebra expresiones auténticas como triunfos",
+    "No subestimes el rol de pausas en la creación",
+    "Permite que la naturaleza nutra imaginaciones",
+    "Un ajuste en herramientas podría desatar flujos",
+    "Escucha feedback con apertura creativa",
+    "Suelta control para abrazar lo impredecible"
+]
+
+
+# Mapeo de categoría -> pool variable
+TIP_POOLS = {
+    "general": TIPS_GENERAL,
+    "love": TIPS_LOVE,
+    "friendship": TIPS_FRIENDSHIP,
+    "energy": TIPS_ENERGY,
+    "work": TIPS_WORK,
+    "health": TIPS_HEALTH,
+    "family": TIPS_FAMILY,
+    "money": TIPS_MONEY,
+    "studies": TIPS_STUDIES,
+    "creativity": TIPS_CREATIVITY,
+}
+
+# Fallback mínimo si no hay nada en los pools
+DEFAULT_TIP = ["Haz una pausa breve y respira."]
+
+# Ajustes operativos
 secret_salt = "CHANGE_THIS_SECRET_SALT_FOR_PRODUCTION"
-base_path = Path(r"C:\Users\Aspire Lite\OneDrive\Escritorio\Horoscopo-app\horoscope-json-app\daily")
-open_folder_after = True   # True = intenta abrir carpeta en Windows al final
-write_pretty = True        # True = indentado para lectura humana
+open_folder_after = True
+write_pretty = True
 
 # Zona horaria
 try:
@@ -172,6 +367,13 @@ except Exception:
 
 now = datetime.datetime.now(tz)
 date_str = now.date().isoformat()
+
+# Determina base_path relativo: sube un nivel desde la ubicación del script y crea 'Daily'
+try:
+    script_dir = Path(__file__).resolve().parent
+except NameError:
+    script_dir = Path.cwd()
+base_path = script_dir.parent / "Daily"
 
 # Helpers --------------------------------------------------------
 def deterministic_seed(*parts) -> int:
@@ -213,50 +415,80 @@ def minimal_validate_structure(d: dict) -> (bool, str):
             return False, f"categories.{cat}.tips debe ser lista"
     return True, "OK"
 
+def select_deterministic_from_pool(seed_int: int, pool: list, k: int):
+    """
+    Selección determinística de k items desde pool.
+    - Si pool tiene >= k: devuelve sample determinístico.
+    - Si pool tiene < k: devuelve elementos únicos y luego completa ciclando determinísticamente.
+    """
+    rnd = random.Random(seed_int)
+    n = len(pool)
+    if n == 0:
+        return []
+    if n >= k:
+        # sample determinístico
+        return rnd.sample(pool, k)
+    # n < k: tomar todos en orden determinístico y completar ciclando con otra permutación
+    order = rnd.sample(pool, k=n)
+    result = list(order)
+    # rellenar ciclando usando otra derivada del seed para variar el orden del ciclo
+    extra_seed = seed_int + 99991
+    rnd2 = random.Random(extra_seed)
+    cycle = rnd2.sample(pool, k=n)
+    idx = 0
+    while len(result) < k:
+        result.append(cycle[idx % n])
+        idx += 1
+    return result
+
 # Lógica principal ----------------------------------------------
 def generate_for_sign(sign: str):
     seed_int = deterministic_seed(date_str, sign, secret_salt)
     rnd = random.Random(seed_int)
 
+    # Mood por signo (único mood por signo)
     mood = rnd.choice(MOODS)
 
+    # States por categoría (determinístico)
     category_states = {}
     for i, cat in enumerate(CATEGORIES):
         category_states[cat] = random.Random(seed_int + i * 97).choice(CATEGORY_STATES)
 
-    tips_ordered = random.Random(seed_int + 12345).sample(TIPS_POOL, k=len(TIPS_POOL))
-    total_slots = len(CATEGORIES) * 2
-    if total_slots <= len(tips_ordered):
-        tips_extended = tips_ordered
-    else:
-        extra_needed = total_slots - len(tips_ordered)
-        second = random.Random(seed_int + 54321).sample(TIPS_POOL, k=len(TIPS_POOL))
-        tips_extended = tips_ordered + second[:extra_needed]
-
+    # Construir categories_obj: cada categoría obtiene sus propios tips desde su pool
     categories_obj = {}
-    tip_idx = 0
-    for cat in CATEGORIES:
-        n_tips = 2 if len(TIPS_POOL) >= 2 else 1
-        chosen = []
-        for _ in range(n_tips):
-            if tip_idx >= len(tips_extended):
-                tip_idx = 0
-            chosen.append(tips_extended[tip_idx] + " [Placeholder]")
-            tip_idx += 1
-        # --- Cambio solicitado: para la categoría 'energy' mostrar el mood como estado energético ---
-        text = f"Estado energético: {category_states[cat]}. [Placeholder]"
+    for i, cat in enumerate(CATEGORIES):
+        # número de tips por categoría (ajustable)
+        n_tips = 2
+
+        # pool específico; si vacío, fallback a TIPS_GENERAL; si también vacío, DEFAULT_TIP
+        pool = TIP_POOLS.get(cat, []) or TIPS_GENERAL or DEFAULT_TIP
+
+        # seed derivada por categoría para selecciones determinísticas distintas
+        pick_seed = deterministic_seed(date_str, sign, cat, secret_salt)
+        chosen = select_deterministic_from_pool(pick_seed, pool, n_tips)
+        # siempre marcar placeholders para identificar que son estáticos
+        chosen = [t + " [Placeholder]" for t in chosen]
+
+        # Texto: energy usa mood como "Estado energético", el resto muestran su state legible
+        if cat == "energy":
+            text = f"Estado energético: {mood}. [Placeholder]"
+        else:
+            # texto legible para la categoría
+            text = f"{cat.capitalize()}: {category_states[cat]}. [Placeholder]"
+
         categories_obj[cat] = {
             "state": category_states[cat],
             "text": text,
             "tips": chosen
         }
 
+    # Flatten tips para prompt (tomamos hasta 3 primeros tips únicos)
     flat_tips = []
     for cat in CATEGORIES:
         for t in categories_obj[cat]["tips"]:
             if t not in flat_tips:
                 flat_tips.append(t)
-    tips_for_ai = [t.replace(" [Placeholder]", "") for t in flat_tips[:3]]
+    tips_for_ai = [t.replace(" [Placeholder]", "") for t in flat_tips[:3]] or [DEFAULT_TIP[0]]
 
     ai_prompt_context = {
         "sign": sign,
@@ -295,6 +527,7 @@ def generate_for_sign(sign: str):
     if not ok:
         raise ValueError(f"Validation failed for {sign}: {msg}")
 
+    # Serializar, calcular hash, guardar atómicamente
     if write_pretty:
         json_bytes = json.dumps(obj, ensure_ascii=False, indent=2).encode("utf-8")
     else:
@@ -302,6 +535,7 @@ def generate_for_sign(sign: str):
 
     file_hash = compute_sha256_bytes(json_bytes)
     obj["metadata"]["hash"] = file_hash
+
     if write_pretty:
         json_bytes = json.dumps(obj, ensure_ascii=False, indent=2).encode("utf-8")
     else:

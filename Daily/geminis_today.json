@@ -1,0 +1,114 @@
+{
+  "date": "2025-10-24",
+  "version": "1.0",
+  "sign": "geminis",
+  "mood": "curioso",
+  "header_summary": "[IA] Geminis, hoy tu energía va a estar curioso; prioriza lo esencial y evita dispersarte.",
+  "categories": {
+    "general": {
+      "state": "precaucion",
+      "text": "General: precaucion. [Placeholder]",
+      "tips": [
+        "Nutre relaciones con presencia auténtica [Placeholder]",
+        "Libera miedos infundados para avanzar [Placeholder]"
+      ]
+    },
+    "love": {
+      "state": "favorable",
+      "text": "Love: favorable. [Placeholder]",
+      "tips": [
+        "Un cambio de perspectiva podría transformar una relación estancada [Placeholder]",
+        "No temas expresar deseos, podría sorprender positivamente [Placeholder]"
+      ]
+    },
+    "friendship": {
+      "state": "estable",
+      "text": "Friendship: estable. [Placeholder]",
+      "tips": [
+        "Un mensaje casual podría fortalecer un lazo olvidado [Placeholder]",
+        "Suelta rencores para dar espacio a nuevas aventuras juntas [Placeholder]"
+      ]
+    },
+    "energy": {
+      "state": "equilibrado",
+      "text": "Estado energético: curioso. [Placeholder]",
+      "tips": [
+        "Suelta lo que drena para invitar renovación [Placeholder]",
+        "Confía en que la fatiga temporal precede a un surge de vitalidad [Placeholder]"
+      ]
+    },
+    "work": {
+      "state": "tenso",
+      "text": "Work: tenso. [Placeholder]",
+      "tips": [
+        "Escucha ideas ajenas, podrían complementar las tuyas [Placeholder]",
+        "No ignores intuiciones sobre decisiones profesionales [Placeholder]"
+      ]
+    },
+    "health": {
+      "state": "incierto",
+      "text": "Health: incierto. [Placeholder]",
+      "tips": [
+        "Encuentra armonía entre actividad y reposo [Placeholder]",
+        "Un hábito pequeño puede transformar bienestar general [Placeholder]"
+      ]
+    },
+    "family": {
+      "state": "incierto",
+      "text": "Family: incierto. [Placeholder]",
+      "tips": [
+        "Suelta rencores para invitar armonía renovada [Placeholder]",
+        "Libera expectativas rígidas para abrazar cambios [Placeholder]"
+      ]
+    },
+    "money": {
+      "state": "desafiante",
+      "text": "Money: desafiante. [Placeholder]",
+      "tips": [
+        "Libera deudas emocionales que pesan en finanzas [Placeholder]",
+        "No ignores señales de oportunidades ocultas [Placeholder]"
+      ]
+    },
+    "studies": {
+      "state": "desafiante",
+      "text": "Studies: desafiante. [Placeholder]",
+      "tips": [
+        "Celebra progresos en habilidades adquiridas [Placeholder]",
+        "Un cambio en el entorno podría impulsar productividad [Placeholder]"
+      ]
+    },
+    "creativity": {
+      "state": "tenso",
+      "text": "Creativity: tenso. [Placeholder]",
+      "tips": [
+        "No subestimes el rol de pausas en la creación [Placeholder]",
+        "Un ajuste en herramientas podría desatar flujos [Placeholder]"
+      ]
+    }
+  },
+  "ai_prompt_context": {
+    "sign": "geminis",
+    "mood": "curioso",
+    "top_tips": [
+      "Nutre relaciones con presencia auténtica",
+      "Libera miedos infundados para avanzar",
+      "Un cambio de perspectiva podría transformar una relación estancada"
+    ],
+    "sample_category_states": {
+      "general": "precaucion",
+      "love": "favorable",
+      "friendship": "estable"
+    }
+  },
+  "target_advice_summary": {
+    "default_strategy": "align_with_mood",
+    "note": "Ver compatibility/ para detalles por par"
+  },
+  "metadata": {
+    "author": "team_astrology",
+    "seed": "23be72da60a2410666474f20c5c2289bc81d0c08a8f8a9bb5f39a6377739aff1",
+    "last_updated": "2025-10-24T00:08:15-03:00",
+    "ai_prompt": "Genera un texto de 1–2 oraciones, tono: breve y empático. Contexto: sign=geminis, mood=curioso, tips=Nutre relaciones con presencia auténtica;Libera miedos infundados para avanzar;Un cambio de perspectiva podría transformar una relación estancada, categories={'general': 'precaucion', 'love': 'favorable', 'friendship': 'estable'}. Produce un encabezado que resuma el día para el usuario dirigido a 'geminis' empezando por el nombre del signo y sin etiquetas.",
+    "hash": "a2b2467d34068ca646fbad5c8e9813aeb9774ae038044565c8cb2d15503beda0"
+  }
+}

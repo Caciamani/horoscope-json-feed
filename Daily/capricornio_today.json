@@ -1,0 +1,114 @@
+{
+  "date": "2025-10-24",
+  "version": "1.0",
+  "sign": "capricornio",
+  "mood": "reflexivo",
+  "header_summary": "[IA] Capricornio, hoy tu energía va a estar reflexivo; prioriza lo esencial y evita dispersarte.",
+  "categories": {
+    "general": {
+      "state": "equilibrado",
+      "text": "General: equilibrado. [Placeholder]",
+      "tips": [
+        "Haz una caminata corta para resetear energía [Placeholder]",
+        "Un momento de juego puede aligerar cargas [Placeholder]"
+      ]
+    },
+    "love": {
+      "state": "estable",
+      "text": "Love: estable. [Placeholder]",
+      "tips": [
+        "Un silencio compartido puede decir más que mil palabras [Placeholder]",
+        "Celebra detalles cotidianos que nutren el vínculo [Placeholder]"
+      ]
+    },
+    "friendship": {
+      "state": "incierto",
+      "text": "Friendship: incierto. [Placeholder]",
+      "tips": [
+        "Permite que el espacio temporal fortalezca lazos [Placeholder]",
+        "Un momento de reflexión puede aclarar dinámicas confusas [Placeholder]"
+      ]
+    },
+    "energy": {
+      "state": "incierto",
+      "text": "Estado energético: reflexivo. [Placeholder]",
+      "tips": [
+        "Un pensamiento positivo puede amplificar reservas ocultas [Placeholder]",
+        "Lo que parece bajo podría ser preparación para un pico [Placeholder]"
+      ]
+    },
+    "work": {
+      "state": "prometedor",
+      "text": "Work: prometedor. [Placeholder]",
+      "tips": [
+        "Escucha ideas ajenas, podrían complementar las tuyas [Placeholder]",
+        "Permite que la colaboración revele soluciones ocultas [Placeholder]"
+      ]
+    },
+    "health": {
+      "state": "precaucion",
+      "text": "Health: precaucion. [Placeholder]",
+      "tips": [
+        "Suelta tensiones con respiraciones conscientes [Placeholder]",
+        "Suelta expectativas para fluir con ritmos naturales [Placeholder]"
+      ]
+    },
+    "family": {
+      "state": "incierto",
+      "text": "Family: incierto. [Placeholder]",
+      "tips": [
+        "Celebra diferencias como riquezas únicas [Placeholder]",
+        "Permítete expresar gratitud por presencias constantes [Placeholder]"
+      ]
+    },
+    "money": {
+      "state": "favorable",
+      "text": "Money: favorable. [Placeholder]",
+      "tips": [
+        "Un cambio en hábitos podría sorprender positivamente [Placeholder]",
+        "Confía en que la abundancia llega en formas sutiles [Placeholder]"
+      ]
+    },
+    "studies": {
+      "state": "equilibrado",
+      "text": "Studies: equilibrado. [Placeholder]",
+      "tips": [
+        "Libera presiones para invitar inspiración [Placeholder]",
+        "Encuentra equilibrio entre teoría y práctica [Placeholder]"
+      ]
+    },
+    "creativity": {
+      "state": "estable",
+      "text": "Creativity: estable. [Placeholder]",
+      "tips": [
+        "No subestimes el rol de pausas en la creación [Placeholder]",
+        "Confía en que el bloqueo temporal precede a un breakthrough [Placeholder]"
+      ]
+    }
+  },
+  "ai_prompt_context": {
+    "sign": "capricornio",
+    "mood": "reflexivo",
+    "top_tips": [
+      "Haz una caminata corta para resetear energía",
+      "Un momento de juego puede aligerar cargas",
+      "Un silencio compartido puede decir más que mil palabras"
+    ],
+    "sample_category_states": {
+      "general": "equilibrado",
+      "love": "estable",
+      "friendship": "incierto"
+    }
+  },
+  "target_advice_summary": {
+    "default_strategy": "align_with_mood",
+    "note": "Ver compatibility/ para detalles por par"
+  },
+  "metadata": {
+    "author": "team_astrology",
+    "seed": "ea8fcb21f6303c8d032ba84cc75d0cea3a87d296e0974c56bc5f2fa4af6862c3",
+    "last_updated": "2025-10-24T00:08:15-03:00",
+    "ai_prompt": "Genera un texto de 1–2 oraciones, tono: breve y empático. Contexto: sign=capricornio, mood=reflexivo, tips=Haz una caminata corta para resetear energía;Un momento de juego puede aligerar cargas;Un silencio compartido puede decir más que mil palabras, categories={'general': 'equilibrado', 'love': 'estable', 'friendship': 'incierto'}. Produce un encabezado que resuma el día para el usuario dirigido a 'capricornio' empezando por el nombre del signo y sin etiquetas.",
+    "hash": "c6370ba9862a4e3432d2baf7243a938a63e734ec7cfd09b936b43e457aeb020d"
+  }
+}

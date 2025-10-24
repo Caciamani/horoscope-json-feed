@@ -1,0 +1,114 @@
+{
+  "date": "2025-10-24",
+  "version": "1.0",
+  "sign": "escorpio",
+  "mood": "relajado",
+  "header_summary": "[IA] Escorpio, hoy tu energía va a estar relajado; prioriza lo esencial y evita dispersarte.",
+  "categories": {
+    "general": {
+      "state": "favorable",
+      "text": "General: favorable. [Placeholder]",
+      "tips": [
+        "Encuentra fuerza en vulnerabilidades compartidas [Placeholder]",
+        "Un paso atrás puede impulsar dos adelante [Placeholder]"
+      ]
+    },
+    "love": {
+      "state": "precaucion",
+      "text": "Love: precaucion. [Placeholder]",
+      "tips": [
+        "Encuentra equilibrio entre dar y recibir en el amor [Placeholder]",
+        "A veces, soltar lo viejo abre espacio para lo nuevo en el corazón [Placeholder]"
+      ]
+    },
+    "friendship": {
+      "state": "estable",
+      "text": "Friendship: estable. [Placeholder]",
+      "tips": [
+        "Un mensaje casual podría fortalecer un lazo olvidado [Placeholder]",
+        "Confía en el flujo natural de las amistades evolutivas [Placeholder]"
+      ]
+    },
+    "energy": {
+      "state": "favorable",
+      "text": "Estado energético: relajado. [Placeholder]",
+      "tips": [
+        "Respira profundo para recargar fuerzas internas [Placeholder]",
+        "Encuentra equilibrio entre actividad y reposo [Placeholder]"
+      ]
+    },
+    "work": {
+      "state": "favorable",
+      "text": "Work: favorable. [Placeholder]",
+      "tips": [
+        "Escucha ideas ajenas, podrían complementar las tuyas [Placeholder]",
+        "Un cambio en la rutina podría impulsar productividad [Placeholder]"
+      ]
+    },
+    "health": {
+      "state": "neutral",
+      "text": "Health: neutral. [Placeholder]",
+      "tips": [
+        "Escucha señales sutiles de tu cuerpo para mantener equilibrio [Placeholder]",
+        "Lo que parece un retroceso podría ser un ajuste necesario [Placeholder]"
+      ]
+    },
+    "family": {
+      "state": "prometedor",
+      "text": "Family: prometedor. [Placeholder]",
+      "tips": [
+        "Encuentra equilibrio en roles dinámicos [Placeholder]",
+        "Un acto de apoyo puede fortalecer cimientos [Placeholder]"
+      ]
+    },
+    "money": {
+      "state": "desafiante",
+      "text": "Money: desafiante. [Placeholder]",
+      "tips": [
+        "Un ajuste pequeño en gastos puede abrir flujos inesperados [Placeholder]",
+        "Celebra ahorros modestos como bases sólidas [Placeholder]"
+      ]
+    },
+    "studies": {
+      "state": "tenso",
+      "text": "Studies: tenso. [Placeholder]",
+      "tips": [
+        "Suelta perfeccionismo para fluir con el aprendizaje [Placeholder]",
+        "Celebra progresos en habilidades adquiridas [Placeholder]"
+      ]
+    },
+    "creativity": {
+      "state": "estable",
+      "text": "Creativity: estable. [Placeholder]",
+      "tips": [
+        "Encuentra inspiración en lo cotidiano [Placeholder]",
+        "Confía en que el bloqueo temporal precede a un breakthrough [Placeholder]"
+      ]
+    }
+  },
+  "ai_prompt_context": {
+    "sign": "escorpio",
+    "mood": "relajado",
+    "top_tips": [
+      "Encuentra fuerza en vulnerabilidades compartidas",
+      "Un paso atrás puede impulsar dos adelante",
+      "Encuentra equilibrio entre dar y recibir en el amor"
+    ],
+    "sample_category_states": {
+      "general": "favorable",
+      "love": "precaucion",
+      "friendship": "estable"
+    }
+  },
+  "target_advice_summary": {
+    "default_strategy": "align_with_mood",
+    "note": "Ver compatibility/ para detalles por par"
+  },
+  "metadata": {
+    "author": "team_astrology",
+    "seed": "bd238b1758fddb5d60b8cc84f3907c073527f9712adc10f1207f1b3b9d38c0d4",
+    "last_updated": "2025-10-24T00:08:15-03:00",
+    "ai_prompt": "Genera un texto de 1–2 oraciones, tono: breve y empático. Contexto: sign=escorpio, mood=relajado, tips=Encuentra fuerza en vulnerabilidades compartidas;Un paso atrás puede impulsar dos adelante;Encuentra equilibrio entre dar y recibir en el amor, categories={'general': 'favorable', 'love': 'precaucion', 'friendship': 'estable'}. Produce un encabezado que resuma el día para el usuario dirigido a 'escorpio' empezando por el nombre del signo y sin etiquetas.",
+    "hash": "43d15d82e8e1588623c9d4b8c315e18609a3e10c0800c2cc00aeec5b6cfb14b5"
+  }
+}

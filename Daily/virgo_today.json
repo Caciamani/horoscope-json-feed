@@ -1,0 +1,114 @@
+{
+  "date": "2025-10-24",
+  "version": "1.0",
+  "sign": "virgo",
+  "mood": "relajado",
+  "header_summary": "[IA] Virgo, hoy tu energía va a estar relajado; prioriza lo esencial y evita dispersarte.",
+  "categories": {
+    "general": {
+      "state": "favorable",
+      "text": "General: favorable. [Placeholder]",
+      "tips": [
+        "Explora lo familiar con ojos nuevos [Placeholder]",
+        "Libera cargas emocionales para ganar libertad [Placeholder]"
+      ]
+    },
+    "love": {
+      "state": "neutral",
+      "text": "Love: neutral. [Placeholder]",
+      "tips": [
+        "Un gesto sutil puede reavivar conexiones pasadas [Placeholder]",
+        "Escucha lo no dicho en las palabras de quien amas [Placeholder]"
+      ]
+    },
+    "friendship": {
+      "state": "equilibrado",
+      "text": "Friendship: equilibrado. [Placeholder]",
+      "tips": [
+        "Escucha con empatía, un amigo podría necesitarlo más de lo que dice [Placeholder]",
+        "Confía en el flujo natural de las amistades evolutivas [Placeholder]"
+      ]
+    },
+    "energy": {
+      "state": "desafiante",
+      "text": "Estado energético: relajado. [Placeholder]",
+      "tips": [
+        "Encuentra equilibrio entre actividad y reposo [Placeholder]",
+        "Un momento mindful puede transformar energías dispersas [Placeholder]"
+      ]
+    },
+    "work": {
+      "state": "neutral",
+      "text": "Work: neutral. [Placeholder]",
+      "tips": [
+        "Un enfoque paso a paso puede desbloquear avances inesperados [Placeholder]",
+        "No ignores intuiciones sobre decisiones profesionales [Placeholder]"
+      ]
+    },
+    "health": {
+      "state": "estable",
+      "text": "Health: estable. [Placeholder]",
+      "tips": [
+        "Escucha señales sutiles de tu cuerpo para mantener equilibrio [Placeholder]",
+        "No ignores el rol de la mente en la vitalidad física [Placeholder]"
+      ]
+    },
+    "family": {
+      "state": "equilibrado",
+      "text": "Family: equilibrado. [Placeholder]",
+      "tips": [
+        "Celebra tradiciones que unen generaciones [Placeholder]",
+        "No ignores gestos pequeños que nutren vínculos [Placeholder]"
+      ]
+    },
+    "money": {
+      "state": "incierto",
+      "text": "Money: incierto. [Placeholder]",
+      "tips": [
+        "Libera deudas emocionales que pesan en finanzas [Placeholder]",
+        "Un ajuste pequeño en gastos puede abrir flujos inesperados [Placeholder]"
+      ]
+    },
+    "studies": {
+      "state": "precaucion",
+      "text": "Studies: precaucion. [Placeholder]",
+      "tips": [
+        "Escucha preguntas internas para deepenar comprensión [Placeholder]",
+        "Lo que parece confusión podría ser preludio a insight [Placeholder]"
+      ]
+    },
+    "creativity": {
+      "state": "precaucion",
+      "text": "Creativity: precaucion. [Placeholder]",
+      "tips": [
+        "Un ajuste en herramientas podría desatar flujos [Placeholder]",
+        "Lo que parece caos podría ser patrón emergente [Placeholder]"
+      ]
+    }
+  },
+  "ai_prompt_context": {
+    "sign": "virgo",
+    "mood": "relajado",
+    "top_tips": [
+      "Explora lo familiar con ojos nuevos",
+      "Libera cargas emocionales para ganar libertad",
+      "Un gesto sutil puede reavivar conexiones pasadas"
+    ],
+    "sample_category_states": {
+      "general": "favorable",
+      "love": "neutral",
+      "friendship": "equilibrado"
+    }
+  },
+  "target_advice_summary": {
+    "default_strategy": "align_with_mood",
+    "note": "Ver compatibility/ para detalles por par"
+  },
+  "metadata": {
+    "author": "team_astrology",
+    "seed": "80ef99d40cebef7031a4b6641f3045331057fb480db9e07789cc30fa36f004c6",
+    "last_updated": "2025-10-24T00:08:15-03:00",
+    "ai_prompt": "Genera un texto de 1–2 oraciones, tono: breve y empático. Contexto: sign=virgo, mood=relajado, tips=Explora lo familiar con ojos nuevos;Libera cargas emocionales para ganar libertad;Un gesto sutil puede reavivar conexiones pasadas, categories={'general': 'favorable', 'love': 'neutral', 'friendship': 'equilibrado'}. Produce un encabezado que resuma el día para el usuario dirigido a 'virgo' empezando por el nombre del signo y sin etiquetas.",
+    "hash": "8da41f7c16f55b63d63f6e31a560f39167b1409cc998adf28f8df3d2fb1f5420"
+  }
+}

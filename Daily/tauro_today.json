@@ -1,0 +1,114 @@
+{
+  "date": "2025-10-24",
+  "version": "1.0",
+  "sign": "tauro",
+  "mood": "optimista",
+  "header_summary": "[IA] Tauro, hoy tu energía va a estar optimista; prioriza lo esencial y evita dispersarte.",
+  "categories": {
+    "general": {
+      "state": "tenso",
+      "text": "General: tenso. [Placeholder]",
+      "tips": [
+        "Reflexiona sobre gratitudes nocturnas [Placeholder]",
+        "Libera juicios y observa con neutralidad [Placeholder]"
+      ]
+    },
+    "love": {
+      "state": "prometedor",
+      "text": "Love: prometedor. [Placeholder]",
+      "tips": [
+        "Suelta expectativas y abraza el flujo natural del afecto [Placeholder]",
+        "Escucha lo no dicho en las palabras de quien amas [Placeholder]"
+      ]
+    },
+    "friendship": {
+      "state": "tenso",
+      "text": "Friendship: tenso. [Placeholder]",
+      "tips": [
+        "Un cambio en la rutina compartida podría traer frescura [Placeholder]",
+        "Suelta rencores para dar espacio a nuevas aventuras juntas [Placeholder]"
+      ]
+    },
+    "energy": {
+      "state": "precaucion",
+      "text": "Estado energético: optimista. [Placeholder]",
+      "tips": [
+        "Un cambio sutil en hábitos puede elevar niveles generales [Placeholder]",
+        "Un ajuste en el entorno puede revitalizar el espíritu [Placeholder]"
+      ]
+    },
+    "work": {
+      "state": "equilibrado",
+      "text": "Work: equilibrado. [Placeholder]",
+      "tips": [
+        "Celebra logros modestos en la jornada laboral [Placeholder]",
+        "Celebra transiciones como puertas a crecimiento [Placeholder]"
+      ]
+    },
+    "health": {
+      "state": "favorable",
+      "text": "Health: favorable. [Placeholder]",
+      "tips": [
+        "Un pensamiento positivo puede apoyar curaciones [Placeholder]",
+        "Permite que el descanso sea prioridad sin culpas [Placeholder]"
+      ]
+    },
+    "family": {
+      "state": "equilibrado",
+      "text": "Family: equilibrado. [Placeholder]",
+      "tips": [
+        "Permite que el tiempo cure heridas pasadas [Placeholder]",
+        "No subestimes el poder de disculpas sinceras [Placeholder]"
+      ]
+    },
+    "money": {
+      "state": "prometedor",
+      "text": "Money: prometedor. [Placeholder]",
+      "tips": [
+        "Permite que el flujo natural atraiga prosperidad [Placeholder]",
+        "Escucha el entorno para ideas innovadoras [Placeholder]"
+      ]
+    },
+    "studies": {
+      "state": "estable",
+      "text": "Studies: estable. [Placeholder]",
+      "tips": [
+        "Libera presiones para invitar inspiración [Placeholder]",
+        "No ignores intuiciones sobre temas complejos [Placeholder]"
+      ]
+    },
+    "creativity": {
+      "state": "prometedor",
+      "text": "Creativity: prometedor. [Placeholder]",
+      "tips": [
+        "Permite que la naturaleza nutra imaginaciones [Placeholder]",
+        "Permítete jugar sin expectativas de resultado [Placeholder]"
+      ]
+    }
+  },
+  "ai_prompt_context": {
+    "sign": "tauro",
+    "mood": "optimista",
+    "top_tips": [
+      "Reflexiona sobre gratitudes nocturnas",
+      "Libera juicios y observa con neutralidad",
+      "Suelta expectativas y abraza el flujo natural del afecto"
+    ],
+    "sample_category_states": {
+      "general": "tenso",
+      "love": "prometedor",
+      "friendship": "tenso"
+    }
+  },
+  "target_advice_summary": {
+    "default_strategy": "align_with_mood",
+    "note": "Ver compatibility/ para detalles por par"
+  },
+  "metadata": {
+    "author": "team_astrology",
+    "seed": "8890115a9ebf915ca0c7b1315c7eda27f8fd7b4c6dfa9138b6b6fc69d42f05c8",
+    "last_updated": "2025-10-24T00:08:15-03:00",
+    "ai_prompt": "Genera un texto de 1–2 oraciones, tono: breve y empático. Contexto: sign=tauro, mood=optimista, tips=Reflexiona sobre gratitudes nocturnas;Libera juicios y observa con neutralidad;Suelta expectativas y abraza el flujo natural del afecto, categories={'general': 'tenso', 'love': 'prometedor', 'friendship': 'tenso'}. Produce un encabezado que resuma el día para el usuario dirigido a 'tauro' empezando por el nombre del signo y sin etiquetas.",
+    "hash": "a2fdf5f356f5876922b5c579a9387fa892dc588f5811c0d79bf55cde93ec0414"
+  }
+}

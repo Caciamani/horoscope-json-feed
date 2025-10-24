@@ -1,0 +1,114 @@
+{
+  "date": "2025-10-24",
+  "version": "1.0",
+  "sign": "acuario",
+  "mood": "motivado",
+  "header_summary": "[IA] Acuario, hoy tu energía va a estar motivado; prioriza lo esencial y evita dispersarte.",
+  "categories": {
+    "general": {
+      "state": "estable",
+      "text": "General: estable. [Placeholder]",
+      "tips": [
+        "Abraza lo desconocido, podría revelar caminos inesperados [Placeholder]",
+        "Libera cargas emocionales para ganar libertad [Placeholder]"
+      ]
+    },
+    "love": {
+      "state": "incierto",
+      "text": "Love: incierto. [Placeholder]",
+      "tips": [
+        "Celebra detalles cotidianos que nutren el vínculo [Placeholder]",
+        "Escucha lo no dicho en las palabras de quien amas [Placeholder]"
+      ]
+    },
+    "friendship": {
+      "state": "neutral",
+      "text": "Friendship: neutral. [Placeholder]",
+      "tips": [
+        "Confía en el flujo natural de las amistades evolutivas [Placeholder]",
+        "Un mensaje casual podría fortalecer un lazo olvidado [Placeholder]"
+      ]
+    },
+    "energy": {
+      "state": "prometedor",
+      "text": "Estado energético: motivado. [Placeholder]",
+      "tips": [
+        "Permite que el descanso sea parte de tu flujo diario [Placeholder]",
+        "Un ajuste en el entorno puede revitalizar el espíritu [Placeholder]"
+      ]
+    },
+    "work": {
+      "state": "favorable",
+      "text": "Work: favorable. [Placeholder]",
+      "tips": [
+        "Permite que la flexibilidad adapte planes rígidos [Placeholder]",
+        "Escucha ideas ajenas, podrían complementar las tuyas [Placeholder]"
+      ]
+    },
+    "health": {
+      "state": "tenso",
+      "text": "Health: tenso. [Placeholder]",
+      "tips": [
+        "Un movimiento diario puede elevar ánimos y fuerzas [Placeholder]",
+        "Suelta expectativas para fluir con ritmos naturales [Placeholder]"
+      ]
+    },
+    "family": {
+      "state": "tenso",
+      "text": "Family: tenso. [Placeholder]",
+      "tips": [
+        "Encuentra equilibrio en roles dinámicos [Placeholder]",
+        "Un acto de apoyo puede fortalecer cimientos [Placeholder]"
+      ]
+    },
+    "money": {
+      "state": "tenso",
+      "text": "Money: tenso. [Placeholder]",
+      "tips": [
+        "No subestimes el valor de presupuestos flexibles [Placeholder]",
+        "Libera deudas emocionales que pesan en finanzas [Placeholder]"
+      ]
+    },
+    "studies": {
+      "state": "equilibrado",
+      "text": "Studies: equilibrado. [Placeholder]",
+      "tips": [
+        "Libera presiones para invitar inspiración [Placeholder]",
+        "Suelta distracciones para enfocar mente [Placeholder]"
+      ]
+    },
+    "creativity": {
+      "state": "tenso",
+      "text": "Creativity: tenso. [Placeholder]",
+      "tips": [
+        "Encuentra inspiración en lo cotidiano [Placeholder]",
+        "No ignores impulsos creativos espontáneos [Placeholder]"
+      ]
+    }
+  },
+  "ai_prompt_context": {
+    "sign": "acuario",
+    "mood": "motivado",
+    "top_tips": [
+      "Abraza lo desconocido, podría revelar caminos inesperados",
+      "Libera cargas emocionales para ganar libertad",
+      "Celebra detalles cotidianos que nutren el vínculo"
+    ],
+    "sample_category_states": {
+      "general": "estable",
+      "love": "incierto",
+      "friendship": "neutral"
+    }
+  },
+  "target_advice_summary": {
+    "default_strategy": "align_with_mood",
+    "note": "Ver compatibility/ para detalles por par"
+  },
+  "metadata": {
+    "author": "team_astrology",
+    "seed": "6519ecd745fe274511b664369dd570230fd21de9a39aeed8d2873ab30f52d748",
+    "last_updated": "2025-10-24T00:08:15-03:00",
+    "ai_prompt": "Genera un texto de 1–2 oraciones, tono: breve y empático. Contexto: sign=acuario, mood=motivado, tips=Abraza lo desconocido, podría revelar caminos inesperados;Libera cargas emocionales para ganar libertad;Celebra detalles cotidianos que nutren el vínculo, categories={'general': 'estable', 'love': 'incierto', 'friendship': 'neutral'}. Produce un encabezado que resuma el día para el usuario dirigido a 'acuario' empezando por el nombre del signo y sin etiquetas.",
+    "hash": "8778f5614cca8d834d3251f9cdcdd99a65f1dc2c828e00474746c8a6f59b2694"
+  }
+}

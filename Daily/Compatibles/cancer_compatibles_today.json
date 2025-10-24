@@ -1,0 +1,116 @@
+{
+  "sign": "cancer",
+  "generated_at": "2025-10-24T04:13:36Z",
+  "pairs": {
+    "aries": {
+      "General": 46,
+      "Love": -4,
+      "Friendship": 7,
+      "Work": -9,
+      "Energy": 0,
+      "Creativity": -3,
+      "fixed_general_source": 50,
+      "avg_categories_pct": 41
+    },
+    "tauro": {
+      "General": 62,
+      "Love": 2,
+      "Friendship": -3,
+      "Work": -2,
+      "Energy": -8,
+      "Creativity": 1,
+      "fixed_general_source": 85,
+      "avg_categories_pct": 40
+    },
+    "geminis": {
+      "General": 48,
+      "Love": 3,
+      "Friendship": 4,
+      "Work": -10,
+      "Energy": -2,
+      "Creativity": -8,
+      "fixed_general_source": 60,
+      "avg_categories_pct": 37
+    },
+    "leo": {
+      "General": 47,
+      "Love": 3,
+      "Friendship": -2,
+      "Work": -7,
+      "Energy": -10,
+      "Creativity": -5,
+      "fixed_general_source": 65,
+      "avg_categories_pct": 29
+    },
+    "virgo": {
+      "General": 59,
+      "Love": -2,
+      "Friendship": 5,
+      "Work": -5,
+      "Energy": -9,
+      "Creativity": -6,
+      "fixed_general_source": 85,
+      "avg_categories_pct": 33
+    },
+    "libra": {
+      "General": 44,
+      "Love": 2,
+      "Friendship": -1,
+      "Work": -8,
+      "Energy": -9,
+      "Creativity": -7,
+      "fixed_general_source": 60,
+      "avg_categories_pct": 27
+    },
+    "escorpio": {
+      "General": 72,
+      "Love": -5,
+      "Friendship": 4,
+      "Work": 0,
+      "Energy": 0,
+      "Creativity": -1,
+      "fixed_general_source": 95,
+      "avg_categories_pct": 48
+    },
+    "sagitario": {
+      "General": 43,
+      "Love": 1,
+      "Friendship": -2,
+      "Work": -1,
+      "Energy": -10,
+      "Creativity": -7,
+      "fixed_general_source": 55,
+      "avg_categories_pct": 31
+    },
+    "capricornio": {
+      "General": 60,
+      "Love": 0,
+      "Friendship": 0,
+      "Work": -1,
+      "Energy": -7,
+      "Creativity": -1,
+      "fixed_general_source": 80,
+      "avg_categories_pct": 41
+    },
+    "acuario": {
+      "General": 44,
+      "Love": -4,
+      "Friendship": 2,
+      "Work": 0,
+      "Energy": -1,
+      "Creativity": -8,
+      "fixed_general_source": 50,
+      "avg_categories_pct": 39
+    },
+    "piscis": {
+      "General": 61,
+      "Love": -4,
+      "Friendship": -1,
+      "Work": -5,
+      "Energy": -7,
+      "Creativity": -1,
+      "fixed_general_source": 90,
+      "avg_categories_pct": 32
+    }
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "date": "2025-10-24",
+  "version": "1.0",
+  "sign": "cancer",
+  "mood": "relajado",
+  "header_summary": "[IA] Cancer, hoy tu energía va a estar relajado; prioriza lo esencial y evita dispersarte.",
+  "categories": {
+    "general": {
+      "state": "favorable",
+      "text": "General: favorable. [Placeholder]",
+      "tips": [
+        "Reflexiona sobre sincronías en tu vida [Placeholder]",
+        "Libera apegos que ya no sirven [Placeholder]"
+      ]
+    },
+    "love": {
+      "state": "incierto",
+      "text": "Love: incierto. [Placeholder]",
+      "tips": [
+        "Un silencio compartido puede decir más que mil palabras [Placeholder]",
+        "Un cambio de perspectiva podría transformar una relación estancada [Placeholder]"
+      ]
+    },
+    "friendship": {
+      "state": "estable",
+      "text": "Friendship: estable. [Placeholder]",
+      "tips": [
+        "Suelta rencores para dar espacio a nuevas aventuras juntas [Placeholder]",
+        "Comparte una risa, puede disipar tensiones acumuladas [Placeholder]"
+      ]
+    },
+    "energy": {
+      "state": "tenso",
+      "text": "Estado energético: relajado. [Placeholder]",
+      "tips": [
+        "Respira profundo para recargar fuerzas internas [Placeholder]",
+        "Suelta lo que drena para invitar renovación [Placeholder]"
+      ]
+    },
+    "work": {
+      "state": "tenso",
+      "text": "Work: tenso. [Placeholder]",
+      "tips": [
+        "Un enfoque paso a paso puede desbloquear avances inesperados [Placeholder]",
+        "Un momento de reflexión puede alinear objetivos [Placeholder]"
+      ]
+    },
+    "health": {
+      "state": "precaucion",
+      "text": "Health: precaucion. [Placeholder]",
+      "tips": [
+        "Celebra elecciones nutritivas como inversiones en ti [Placeholder]",
+        "Un pensamiento positivo puede apoyar curaciones [Placeholder]"
+      ]
+    },
+    "family": {
+      "state": "tenso",
+      "text": "Family: tenso. [Placeholder]",
+      "tips": [
+        "No subestimes el poder de disculpas sinceras [Placeholder]",
+        "Un diálogo abierto puede resolver tensiones latentes [Placeholder]"
+      ]
+    },
+    "money": {
+      "state": "estable",
+      "text": "Money: estable. [Placeholder]",
+      "tips": [
+        "Celebra progresos en independencia económica [Placeholder]",
+        "No ignores señales de oportunidades ocultas [Placeholder]"
+      ]
+    },
+    "studies": {
+      "state": "precaucion",
+      "text": "Studies: precaucion. [Placeholder]",
+      "tips": [
+        "Escucha preguntas internas para deepenar comprensión [Placeholder]",
+        "Permite que la curiosidad guíe exploraciones [Placeholder]"
+      ]
+    },
+    "creativity": {
+      "state": "precaucion",
+      "text": "Creativity: precaucion. [Placeholder]",
+      "tips": [
+        "Escucha musas internas sin juzgar [Placeholder]",
+        "Permite que el flujo libre inspire expresiones únicas [Placeholder]"
+      ]
+    }
+  },
+  "ai_prompt_context": {
+    "sign": "cancer",
+    "mood": "relajado",
+    "top_tips": [
+      "Reflexiona sobre sincronías en tu vida",
+      "Libera apegos que ya no sirven",
+      "Un silencio compartido puede decir más que mil palabras"
+    ],
+    "sample_category_states": {
+      "general": "favorable",
+      "love": "incierto",
+      "friendship": "estable"
+    }
+  },
+  "target_advice_summary": {
+    "default_strategy": "align_with_mood",
+    "note": "Ver compatibility/ para detalles por par"
+  },
+  "metadata": {
+    "author": "team_astrology",
+    "seed": "f0a3fe3eace63220ea9db849a7e62f51f1d84a4a2c9bbfde06c480321461dd80",
+    "last_updated": "2025-10-24T00:08:15-03:00",
+    "ai_prompt": "Genera un texto de 1–2 oraciones, tono: breve y empático. Contexto: sign=cancer, mood=relajado, tips=Reflexiona sobre sincronías en tu vida;Libera apegos que ya no sirven;Un silencio compartido puede decir más que mil palabras, categories={'general': 'favorable', 'love': 'incierto', 'friendship': 'estable'}. Produce un encabezado que resuma el día para el usuario dirigido a 'cancer' empezando por el nombre del signo y sin etiquetas.",
+    "hash": "fb66667ec6f89930f55dcbb964e961d72b24066324be0f5555e9190bb704d73b"
+  }
+}

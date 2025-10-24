@@ -1,0 +1,114 @@
+{
+  "date": "2025-10-24",
+  "version": "1.0",
+  "sign": "piscis",
+  "mood": "indeciso",
+  "header_summary": "[IA] Piscis, hoy tu energía va a estar indeciso; prioriza lo esencial y evita dispersarte.",
+  "categories": {
+    "general": {
+      "state": "desafiante",
+      "text": "General: desafiante. [Placeholder]",
+      "tips": [
+        "Ignora comparaciones y enfócate en tu camino [Placeholder]",
+        "Sé receptivo a señales del entorno [Placeholder]"
+      ]
+    },
+    "love": {
+      "state": "incierto",
+      "text": "Love: incierto. [Placeholder]",
+      "tips": [
+        "Permítete soñar con posibilidades románticas sin límites [Placeholder]",
+        "No temas expresar deseos, podría sorprender positivamente [Placeholder]"
+      ]
+    },
+    "friendship": {
+      "state": "precaucion",
+      "text": "Friendship: precaucion. [Placeholder]",
+      "tips": [
+        "No subestimes el poder de un apoyo silencioso [Placeholder]",
+        "Comparte una risa, puede disipar tensiones acumuladas [Placeholder]"
+      ]
+    },
+    "energy": {
+      "state": "incierto",
+      "text": "Estado energético: indeciso. [Placeholder]",
+      "tips": [
+        "No subestimes el impacto de hidratación y nutrición [Placeholder]",
+        "No ignores señales de agotamiento, son guías valiosas [Placeholder]"
+      ]
+    },
+    "work": {
+      "state": "neutral",
+      "text": "Work: neutral. [Placeholder]",
+      "tips": [
+        "Un gesto de reconocimiento puede motivar equipos [Placeholder]",
+        "Suelta perfeccionismo para ganar eficiencia [Placeholder]"
+      ]
+    },
+    "health": {
+      "state": "prometedor",
+      "text": "Health: prometedor. [Placeholder]",
+      "tips": [
+        "Escucha señales sutiles de tu cuerpo para mantener equilibrio [Placeholder]",
+        "No ignores el rol de la mente en la vitalidad física [Placeholder]"
+      ]
+    },
+    "family": {
+      "state": "neutral",
+      "text": "Family: neutral. [Placeholder]",
+      "tips": [
+        "Un acto de apoyo puede fortalecer cimientos [Placeholder]",
+        "Lo que parece conflicto podría ser crecimiento disfrazado [Placeholder]"
+      ]
+    },
+    "money": {
+      "state": "desafiante",
+      "text": "Money: desafiante. [Placeholder]",
+      "tips": [
+        "Un cambio en hábitos podría sorprender positivamente [Placeholder]",
+        "Confía en intuiciones sobre riesgos calculados [Placeholder]"
+      ]
+    },
+    "studies": {
+      "state": "precaucion",
+      "text": "Studies: precaucion. [Placeholder]",
+      "tips": [
+        "Un pausa reflexiva puede conectar ideas dispersas [Placeholder]",
+        "No ignores intuiciones sobre temas complejos [Placeholder]"
+      ]
+    },
+    "creativity": {
+      "state": "estable",
+      "text": "Creativity: estable. [Placeholder]",
+      "tips": [
+        "Suelta control para abrazar lo impredecible [Placeholder]",
+        "No ignores impulsos creativos espontáneos [Placeholder]"
+      ]
+    }
+  },
+  "ai_prompt_context": {
+    "sign": "piscis",
+    "mood": "indeciso",
+    "top_tips": [
+      "Ignora comparaciones y enfócate en tu camino",
+      "Sé receptivo a señales del entorno",
+      "Permítete soñar con posibilidades románticas sin límites"
+    ],
+    "sample_category_states": {
+      "general": "desafiante",
+      "love": "incierto",
+      "friendship": "precaucion"
+    }
+  },
+  "target_advice_summary": {
+    "default_strategy": "align_with_mood",
+    "note": "Ver compatibility/ para detalles por par"
+  },
+  "metadata": {
+    "author": "team_astrology",
+    "seed": "cc5d86b7251770a47f3f22f3f25a1698dae18d4dbdd9bb5aabaccaff2137b93e",
+    "last_updated": "2025-10-24T00:08:15-03:00",
+    "ai_prompt": "Genera un texto de 1–2 oraciones, tono: breve y empático. Contexto: sign=piscis, mood=indeciso, tips=Ignora comparaciones y enfócate en tu camino;Sé receptivo a señales del entorno;Permítete soñar con posibilidades románticas sin límites, categories={'general': 'desafiante', 'love': 'incierto', 'friendship': 'precaucion'}. Produce un encabezado que resuma el día para el usuario dirigido a 'piscis' empezando por el nombre del signo y sin etiquetas.",
+    "hash": "9d05c03a9174c599a3f8c2bcba9eaf2d7c4b4e0c1543b6ed79085ec26d7d5976"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "date": "2025-10-24",
+  "version": "1.0",
+  "sign": "sagitario",
+  "mood": "relajado",
+  "header_summary": "[IA] Sagitario, hoy tu energía va a estar relajado; prioriza lo esencial y evita dispersarte.",
+  "categories": {
+    "general": {
+      "state": "favorable",
+      "text": "General: favorable. [Placeholder]",
+      "tips": [
+        "Un gesto amable puede generar conexiones profundas [Placeholder]",
+        "Escucha el silencio, a veces dice mucho [Placeholder]"
+      ]
+    },
+    "love": {
+      "state": "equilibrado",
+      "text": "Love: equilibrado. [Placeholder]",
+      "tips": [
+        "Confía en que un encuentro inesperado podría encender una chispa duradera [Placeholder]",
+        "Encuentra equilibrio entre dar y recibir en el amor [Placeholder]"
+      ]
+    },
+    "friendship": {
+      "state": "desafiante",
+      "text": "Friendship: desafiante. [Placeholder]",
+      "tips": [
+        "Permite que las diferencias enriquezcan la conexión compartida [Placeholder]",
+        "Confía en que la lealtad verdadera resiste pruebas sutiles [Placeholder]"
+      ]
+    },
+    "energy": {
+      "state": "tenso",
+      "text": "Estado energético: relajado. [Placeholder]",
+      "tips": [
+        "Un momento mindful puede transformar energías dispersas [Placeholder]",
+        "Celebra momentos de calma como fuentes de poder [Placeholder]"
+      ]
+    },
+    "work": {
+      "state": "prometedor",
+      "text": "Work: prometedor. [Placeholder]",
+      "tips": [
+        "Suelta perfeccionismo para ganar eficiencia [Placeholder]",
+        "Encuentra inspiración en tareas cotidianas [Placeholder]"
+      ]
+    },
+    "health": {
+      "state": "estable",
+      "text": "Health: estable. [Placeholder]",
+      "tips": [
+        "Confía en intuiciones sobre cambios saludables [Placeholder]",
+        "Un hábito pequeño puede transformar bienestar general [Placeholder]"
+      ]
+    },
+    "family": {
+      "state": "estable",
+      "text": "Family: estable. [Placeholder]",
+      "tips": [
+        "Un acto de apoyo puede fortalecer cimientos [Placeholder]",
+        "Libera expectativas rígidas para abrazar cambios [Placeholder]"
+      ]
+    },
+    "money": {
+      "state": "desafiante",
+      "text": "Money: desafiante. [Placeholder]",
+      "tips": [
+        "Celebra ahorros modestos como bases sólidas [Placeholder]",
+        "Lo que parece pérdida podría ser lección valiosa [Placeholder]"
+      ]
+    },
+    "studies": {
+      "state": "desafiante",
+      "text": "Studies: desafiante. [Placeholder]",
+      "tips": [
+        "Permite que el descanso recargue concentración [Placeholder]",
+        "Un enfoque paso a paso puede desbloquear conocimientos profundos [Placeholder]"
+      ]
+    },
+    "creativity": {
+      "state": "desafiante",
+      "text": "Creativity: desafiante. [Placeholder]",
+      "tips": [
+        "Libera críticas internas para liberar potencial [Placeholder]",
+        "Un cambio de perspectiva puede transformar visiones [Placeholder]"
+      ]
+    }
+  },
+  "ai_prompt_context": {
+    "sign": "sagitario",
+    "mood": "relajado",
+    "top_tips": [
+      "Un gesto amable puede generar conexiones profundas",
+      "Escucha el silencio, a veces dice mucho",
+      "Confía en que un encuentro inesperado podría encender una chispa duradera"
+    ],
+    "sample_category_states": {
+      "general": "favorable",
+      "love": "equilibrado",
+      "friendship": "desafiante"
+    }
+  },
+  "target_advice_summary": {
+    "default_strategy": "align_with_mood",
+    "note": "Ver compatibility/ para detalles por par"
+  },
+  "metadata": {
+    "author": "team_astrology",
+    "seed": "cfd99d7a60fc5ec401113ed68a5869dc74198eb232d5408b03e4f900a9f65347",
+    "last_updated": "2025-10-24T00:08:15-03:00",
+    "ai_prompt": "Genera un texto de 1–2 oraciones, tono: breve y empático. Contexto: sign=sagitario, mood=relajado, tips=Un gesto amable puede generar conexiones profundas;Escucha el silencio, a veces dice mucho;Confía en que un encuentro inesperado podría encender una chispa duradera, categories={'general': 'favorable', 'love': 'equilibrado', 'friendship': 'desafiante'}. Produce un encabezado que resuma el día para el usuario dirigido a 'sagitario' empezando por el nombre del signo y sin etiquetas.",
+    "hash": "608f5d5fcbf17efd613ee6829bca92d0402a45997161e5e2718bc22ecdcdd34d"
+  }
+}

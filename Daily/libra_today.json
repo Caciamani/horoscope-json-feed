@@ -1,0 +1,114 @@
+{
+  "date": "2025-10-24",
+  "version": "1.0",
+  "sign": "libra",
+  "mood": "melancólico",
+  "header_summary": "[IA] Libra, hoy tu energía va a estar melancólico; prioriza lo esencial y evita dispersarte.",
+  "categories": {
+    "general": {
+      "state": "estable",
+      "text": "General: estable. [Placeholder]",
+      "tips": [
+        "Reserva 20 minutos para calmar la mente antes de actuar [Placeholder]",
+        "Un cambio de enfoque puede desbloquear soluciones [Placeholder]"
+      ]
+    },
+    "love": {
+      "state": "prometedor",
+      "text": "Love: prometedor. [Placeholder]",
+      "tips": [
+        "No ignores señales pequeñas en el romance, podrían guiarte [Placeholder]",
+        "Lo que parece un desacuerdo podría ser el puente a una mayor intimidad [Placeholder]"
+      ]
+    },
+    "friendship": {
+      "state": "precaucion",
+      "text": "Friendship: precaucion. [Placeholder]",
+      "tips": [
+        "No subestimes el poder de un apoyo silencioso [Placeholder]",
+        "Confía en que la lealtad verdadera resiste pruebas sutiles [Placeholder]"
+      ]
+    },
+    "energy": {
+      "state": "desafiante",
+      "text": "Estado energético: melancólico. [Placeholder]",
+      "tips": [
+        "Encuentra equilibrio entre actividad y reposo [Placeholder]",
+        "Lo que parece bajo podría ser preparación para un pico [Placeholder]"
+      ]
+    },
+    "work": {
+      "state": "precaucion",
+      "text": "Work: precaucion. [Placeholder]",
+      "tips": [
+        "Confía en que un desafío actual forja habilidades futuras [Placeholder]",
+        "Un enfoque paso a paso puede desbloquear avances inesperados [Placeholder]"
+      ]
+    },
+    "health": {
+      "state": "favorable",
+      "text": "Health: favorable. [Placeholder]",
+      "tips": [
+        "No subestimes el impacto de hidratación diaria [Placeholder]",
+        "No ignores el rol de la mente en la vitalidad física [Placeholder]"
+      ]
+    },
+    "family": {
+      "state": "favorable",
+      "text": "Family: favorable. [Placeholder]",
+      "tips": [
+        "Lo que parece conflicto podría ser crecimiento disfrazado [Placeholder]",
+        "Permite que el espacio temporal refresque conexiones [Placeholder]"
+      ]
+    },
+    "money": {
+      "state": "favorable",
+      "text": "Money: favorable. [Placeholder]",
+      "tips": [
+        "Un gesto generoso puede retornar multiplicado [Placeholder]",
+        "Celebra progresos en independencia económica [Placeholder]"
+      ]
+    },
+    "studies": {
+      "state": "estable",
+      "text": "Studies: estable. [Placeholder]",
+      "tips": [
+        "Libera presiones para invitar inspiración [Placeholder]",
+        "Permítete experimentar con métodos nuevos [Placeholder]"
+      ]
+    },
+    "creativity": {
+      "state": "desafiante",
+      "text": "Creativity: desafiante. [Placeholder]",
+      "tips": [
+        "Lo que parece caos podría ser patrón emergente [Placeholder]",
+        "Escucha feedback con apertura creativa [Placeholder]"
+      ]
+    }
+  },
+  "ai_prompt_context": {
+    "sign": "libra",
+    "mood": "melancólico",
+    "top_tips": [
+      "Reserva 20 minutos para calmar la mente antes de actuar",
+      "Un cambio de enfoque puede desbloquear soluciones",
+      "No ignores señales pequeñas en el romance, podrían guiarte"
+    ],
+    "sample_category_states": {
+      "general": "estable",
+      "love": "prometedor",
+      "friendship": "precaucion"
+    }
+  },
+  "target_advice_summary": {
+    "default_strategy": "align_with_mood",
+    "note": "Ver compatibility/ para detalles por par"
+  },
+  "metadata": {
+    "author": "team_astrology",
+    "seed": "d41fa98b446a6a36960fc53e228ef20946e1ce727fee1803e4deb6f83fbba81e",
+    "last_updated": "2025-10-24T00:08:15-03:00",
+    "ai_prompt": "Genera un texto de 1–2 oraciones, tono: breve y empático. Contexto: sign=libra, mood=melancólico, tips=Reserva 20 minutos para calmar la mente antes de actuar;Un cambio de enfoque puede desbloquear soluciones;No ignores señales pequeñas en el romance, podrían guiarte, categories={'general': 'estable', 'love': 'prometedor', 'friendship': 'precaucion'}. Produce un encabezado que resuma el día para el usuario dirigido a 'libra' empezando por el nombre del signo y sin etiquetas.",
+    "hash": "59989ed6cbed2745962fce5c9e7a3ecd90074dd9aa471514884da158eddaab01"
+  }
+}

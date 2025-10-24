@@ -1,0 +1,114 @@
+{
+  "date": "2025-10-24",
+  "version": "1.0",
+  "sign": "aries",
+  "mood": "sereno",
+  "header_summary": "[IA] Aries, hoy tu energía va a estar sereno; prioriza lo esencial y evita dispersarte.",
+  "categories": {
+    "general": {
+      "state": "incierto",
+      "text": "General: incierto. [Placeholder]",
+      "tips": [
+        "Conecta con tu esencia en tiempos turbulentos [Placeholder]",
+        "Celebra avances sutiles en tu jornada [Placeholder]"
+      ]
+    },
+    "love": {
+      "state": "incierto",
+      "text": "Love: incierto. [Placeholder]",
+      "tips": [
+        "Lo que hoy parece confuso en el amor aclarará con tiempo [Placeholder]",
+        "Un gesto de bondad puede ripplear en olas de cariño [Placeholder]"
+      ]
+    },
+    "friendship": {
+      "state": "favorable",
+      "text": "Friendship: favorable. [Placeholder]",
+      "tips": [
+        "Un gesto de gratitud puede deepenar amistades existentes [Placeholder]",
+        "Un encuentro espontáneo puede revivir alegrías pasadas [Placeholder]"
+      ]
+    },
+    "energy": {
+      "state": "favorable",
+      "text": "Estado energético: sereno. [Placeholder]",
+      "tips": [
+        "Un momento mindful puede transformar energías dispersas [Placeholder]",
+        "Suelta lo que drena para invitar renovación [Placeholder]"
+      ]
+    },
+    "work": {
+      "state": "desafiante",
+      "text": "Work: desafiante. [Placeholder]",
+      "tips": [
+        "Lo que parece un obstáculo podría ser una oportunidad disfrazada [Placeholder]",
+        "Celebra logros modestos en la jornada laboral [Placeholder]"
+      ]
+    },
+    "health": {
+      "state": "incierto",
+      "text": "Health: incierto. [Placeholder]",
+      "tips": [
+        "Confía en que la consistencia trae resultados duraderos [Placeholder]",
+        "Escucha emociones, influyen en la salud holística [Placeholder]"
+      ]
+    },
+    "family": {
+      "state": "precaucion",
+      "text": "Family: precaucion. [Placeholder]",
+      "tips": [
+        "Lo que parece conflicto podría ser crecimiento disfrazado [Placeholder]",
+        "Permite que el tiempo cure heridas pasadas [Placeholder]"
+      ]
+    },
+    "money": {
+      "state": "equilibrado",
+      "text": "Money: equilibrado. [Placeholder]",
+      "tips": [
+        "Escucha el entorno para ideas innovadoras [Placeholder]",
+        "Un gesto generoso puede retornar multiplicado [Placeholder]"
+      ]
+    },
+    "studies": {
+      "state": "incierto",
+      "text": "Studies: incierto. [Placeholder]",
+      "tips": [
+        "Un grupo de estudio puede revelar perspectivas frescas [Placeholder]",
+        "Un pausa reflexiva puede conectar ideas dispersas [Placeholder]"
+      ]
+    },
+    "creativity": {
+      "state": "neutral",
+      "text": "Creativity: neutral. [Placeholder]",
+      "tips": [
+        "No ignores impulsos creativos espontáneos [Placeholder]",
+        "Un colaboración inesperada puede enriquecer obras [Placeholder]"
+      ]
+    }
+  },
+  "ai_prompt_context": {
+    "sign": "aries",
+    "mood": "sereno",
+    "top_tips": [
+      "Conecta con tu esencia en tiempos turbulentos",
+      "Celebra avances sutiles en tu jornada",
+      "Lo que hoy parece confuso en el amor aclarará con tiempo"
+    ],
+    "sample_category_states": {
+      "general": "incierto",
+      "love": "incierto",
+      "friendship": "favorable"
+    }
+  },
+  "target_advice_summary": {
+    "default_strategy": "align_with_mood",
+    "note": "Ver compatibility/ para detalles por par"
+  },
+  "metadata": {
+    "author": "team_astrology",
+    "seed": "2583c348a48ce2c9344ec4afa6ddfc7dbf9f1957824d13512f4283b74f5d53b2",
+    "last_updated": "2025-10-24T00:08:15-03:00",
+    "ai_prompt": "Genera un texto de 1–2 oraciones, tono: breve y empático. Contexto: sign=aries, mood=sereno, tips=Conecta con tu esencia en tiempos turbulentos;Celebra avances sutiles en tu jornada;Lo que hoy parece confuso en el amor aclarará con tiempo, categories={'general': 'incierto', 'love': 'incierto', 'friendship': 'favorable'}. Produce un encabezado que resuma el día para el usuario dirigido a 'aries' empezando por el nombre del signo y sin etiquetas.",
+    "hash": "59b3eb40cba5908dedbeb2caa2a8911b8a79a53d9c47c69cd6a22b36db4d1a92"
+  }
+}

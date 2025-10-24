@@ -1,0 +1,114 @@
+{
+  "date": "2025-10-24",
+  "version": "1.0",
+  "sign": "leo",
+  "mood": "decidido",
+  "header_summary": "[IA] Leo, hoy tu energía va a estar decidido; prioriza lo esencial y evita dispersarte.",
+  "categories": {
+    "general": {
+      "state": "favorable",
+      "text": "General: favorable. [Placeholder]",
+      "tips": [
+        "Libera juicios y observa con neutralidad [Placeholder]",
+        "Comparte una sonrisa, puede cambiar un día [Placeholder]"
+      ]
+    },
+    "love": {
+      "state": "favorable",
+      "text": "Love: favorable. [Placeholder]",
+      "tips": [
+        "Confía en que un encuentro inesperado podría encender una chispa duradera [Placeholder]",
+        "Un cambio de perspectiva podría transformar una relación estancada [Placeholder]"
+      ]
+    },
+    "friendship": {
+      "state": "desafiante",
+      "text": "Friendship: desafiante. [Placeholder]",
+      "tips": [
+        "Un encuentro espontáneo puede revivir alegrías pasadas [Placeholder]",
+        "Un cambio en la rutina compartida podría traer frescura [Placeholder]"
+      ]
+    },
+    "energy": {
+      "state": "tenso",
+      "text": "Estado energético: decidido. [Placeholder]",
+      "tips": [
+        "Respira profundo para recargar fuerzas internas [Placeholder]",
+        "Celebra progresos pequeños que acumulan momentum [Placeholder]"
+      ]
+    },
+    "work": {
+      "state": "incierto",
+      "text": "Work: incierto. [Placeholder]",
+      "tips": [
+        "Celebra transiciones como puertas a crecimiento [Placeholder]",
+        "No ignores intuiciones sobre decisiones profesionales [Placeholder]"
+      ]
+    },
+    "health": {
+      "state": "estable",
+      "text": "Health: estable. [Placeholder]",
+      "tips": [
+        "Un ajuste en la dieta podría sorprender positivamente [Placeholder]",
+        "Escucha señales sutiles de tu cuerpo para mantener equilibrio [Placeholder]"
+      ]
+    },
+    "family": {
+      "state": "precaucion",
+      "text": "Family: precaucion. [Placeholder]",
+      "tips": [
+        "Confía en que los lazos profundos resisten pruebas [Placeholder]",
+        "Celebra diferencias como riquezas únicas [Placeholder]"
+      ]
+    },
+    "money": {
+      "state": "prometedor",
+      "text": "Money: prometedor. [Placeholder]",
+      "tips": [
+        "Permite que el flujo natural atraiga prosperidad [Placeholder]",
+        "Celebra progresos en independencia económica [Placeholder]"
+      ]
+    },
+    "studies": {
+      "state": "incierto",
+      "text": "Studies: incierto. [Placeholder]",
+      "tips": [
+        "Confía en el proceso evolutivo del saber [Placeholder]",
+        "Celebra descubrimientos modestos en el aprendizaje [Placeholder]"
+      ]
+    },
+    "creativity": {
+      "state": "incierto",
+      "text": "Creativity: incierto. [Placeholder]",
+      "tips": [
+        "Suelta control para abrazar lo impredecible [Placeholder]",
+        "No ignores impulsos creativos espontáneos [Placeholder]"
+      ]
+    }
+  },
+  "ai_prompt_context": {
+    "sign": "leo",
+    "mood": "decidido",
+    "top_tips": [
+      "Libera juicios y observa con neutralidad",
+      "Comparte una sonrisa, puede cambiar un día",
+      "Confía en que un encuentro inesperado podría encender una chispa duradera"
+    ],
+    "sample_category_states": {
+      "general": "favorable",
+      "love": "favorable",
+      "friendship": "desafiante"
+    }
+  },
+  "target_advice_summary": {
+    "default_strategy": "align_with_mood",
+    "note": "Ver compatibility/ para detalles por par"
+  },
+  "metadata": {
+    "author": "team_astrology",
+    "seed": "01dac2898fba7c0891fb5f08f21c015c33701c684e8c757195edc2892f6b4d17",
+    "last_updated": "2025-10-24T00:08:15-03:00",
+    "ai_prompt": "Genera un texto de 1–2 oraciones, tono: breve y empático. Contexto: sign=leo, mood=decidido, tips=Libera juicios y observa con neutralidad;Comparte una sonrisa, puede cambiar un día;Confía en que un encuentro inesperado podría encender una chispa duradera, categories={'general': 'favorable', 'love': 'favorable', 'friendship': 'desafiante'}. Produce un encabezado que resuma el día para el usuario dirigido a 'leo' empezando por el nombre del signo y sin etiquetas.",
+    "hash": "dd0151ee8e5bce0a0e061ef0145c5fde4bcdfdd3e807848f94ce98ab6b59aca8"
+  }
+}
